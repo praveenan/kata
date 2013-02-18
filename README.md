@@ -4,6 +4,135 @@
 
 ### Sorting
 
+http://en.wikipedia.org/wiki/Sorting_algorithm
+
+* Quicksort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Merge sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* In-place Merge sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Heapsort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Insertion sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Introsort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Selection sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Timsort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Shell sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Bubble sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Binary tree sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Cycle sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Library sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Patience sorting
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Smoothsort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Strand sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Tournament sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Cocktail sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Comb sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Gnome sort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+* Bogosort
+  - [ ] C#
+  - [ ] CoffeeScript
+  - [ ] JavaScript
+  - [ ] Python
+  - [ ] Ruby
+
 ### Searching
 
 ## Design patterns
