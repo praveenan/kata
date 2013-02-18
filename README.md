@@ -2,6 +2,10 @@
 
 ## Algorithms
 
+### Sorting
+
+### Searching
+
 ## Design patterns
 
 ### Creational
