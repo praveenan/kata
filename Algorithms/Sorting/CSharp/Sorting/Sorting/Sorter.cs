@@ -29,7 +29,7 @@
       while (i <= j)
       {
         // In whis way we are finding first element from the left side
-        // of array what is greater than pivot. 
+        // of array what is greater than pivot.
         // So we have to move it to the right.
         while (array[i] < pivot)
         {
@@ -44,7 +44,7 @@
           j--;
         }
 
-        // If i is still on the left from j or on the same position, 
+        // If i is still on the left from j or on the same position,
         // swap array elements
         if (i < j)
         {
