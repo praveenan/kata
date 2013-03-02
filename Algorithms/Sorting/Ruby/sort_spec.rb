@@ -1,7 +1,7 @@
 require './sort.rb'
 
 describe Sort, "#quicksort" do
-  max = 1000
+  max = 1_000_000
 
   before(:each) do
     @array = Array.new(max) { |i| Random.rand(max) }

@@ -1,17 +1,23 @@
 class Sort
 
-  def self.quicksort(array, left=0, right=-1)
+  @@count = 0
 
-    return if array.nil? or array.length == 1
+  def self.quicksort(array, left=0, right=nil)
 
-    if right < 0
+    puts @@count = @@count + 1
+
+    return if array.nil?
+
+    if right.nil? or right < 0
       right = array.length - 1
     end
+
+    return if left >= right
 
     i = left
     j = right
 
-    pivot = array[Random.rand(array.length - 1)]
+    pivot = array[left]
 
     while i <= j
 
@@ -36,13 +42,9 @@ class Sort
 
     end
 
-    if left < j
-      quicksort array, left, j
-    end
+    quicksort array, left, j
 
-    if i < right
-      quicksort array, i, right
-    end
+    quicksort array, i, right
 
   end
 
