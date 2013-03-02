@@ -37,7 +37,7 @@
         }
 
         // In this way we are finding first element from the right side
-        // of array what is less than pivot.
+        // of array what is greater than pivot.
         // So we have to move it to the left.
         while (array[j] > pivot)
         {
