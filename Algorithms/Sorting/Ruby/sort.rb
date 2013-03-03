@@ -1,50 +1,42 @@
 class Sort
 
-  @@count = 0
+  def self.quicksort(array, from=0, to=nil)
 
-  def self.quicksort(array, left=0, right=nil)
-
-    puts @@count = @@count + 1
-
-    return if array.nil?
-
-    if right.nil? or right < 0
-      right = array.length - 1
+    if to.nil?
+      to = array.length - 1
     end
 
-    return if left >= right
+    return if from > to
 
-    i = left
-    j = right
+    min = from
+    max = to
 
-    pivot = array[left]
+    pivot = array[from]
 
-    while i <= j
-
-      while array[i] < pivot
-        i = i + 1
+    while min <= max
+      while array[min] < pivot
+        min += 1
       end
 
-      while array[j] > pivot
-        j = j - 1
+      while array[max] > pivot
+        max -= 1
       end
 
-      if i < j
-        temp = array[i]
-        array[i] = array[j]
-        array[j] = temp
+      if min < max
+        temp = array[min]
+        array[min] = array[max]
+        array[max] = temp
       end
 
-      if i <= j
-        i = i + 1
-        j = j - 1
+      if min <= max
+        min += 1
+        max -= 1
       end
 
     end
 
-    quicksort array, left, j
-
-    quicksort array, i, right
+    quicksort array, from, max
+    quicksort array, min, to
 
   end
 
